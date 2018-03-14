@@ -1,0 +1,10 @@
+// Download all file from a directory
+sudo wget -m -p -E -k -K -np
+
+// set folder permission
+
+sudo chmod -R 777 [folder name ]
+
+//restert network manager
+sudo systemctl restert network-manager
+
