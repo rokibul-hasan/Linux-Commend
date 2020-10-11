@@ -8,3 +8,28 @@ sudo chmod -R 777 [folder name ]
 //restert network manager
 sudo systemctl restert network-manager
 
+//restart network
+
+systemctl restart network
+
+service network restart
+
+ifdown eno1 && ifup eno1
+
+// check folder and file size
+
+du -sh  
+df -h //all main drive size
+du -sh * //current folder all subfolder size.
+
+//common monitor command
+
+htop //show all details process
+top //short details process
+iftop 
+nmon // overview details monitor
+
+//check all drive info
+lsblk
+
+//check 
